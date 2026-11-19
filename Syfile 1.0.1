@@ -1,0 +1,21 @@
+# Syfile 1.0.1
+
+**Syfile** es tu biblioteca personal cifrada y optimizada para organizar, comprimir y proteger tus documentos, fotos, videos y música en Android, Windows, macOS y Linux.
+
+---
+
+## Novedades de la versión 1.0.1
+
+### Control de espacio y límite del plan en tiempo real
+* **Detención exacta al alcanzar el límite:** Ahora la capacidad del plan se verifica archivo por archivo conforme se procesan. Si un lote grande supera tu espacio disponible, la importación se detiene en ese mismo instante sin desperdiciar horas procesando archivos que no caben.
+* **Conservación de archivos válidos:** Todo lo que sí alcanzó a entrar en tu espacio disponible se guarda en tu biblioteca; el resto queda marcado con el motivo exacto y sin tocar tus archivos originales.
+* **Aviso claro:** Al detenerse por falta de espacio, se muestra una notificación inmediata indicando que se alcanzó el límite del plan.
+
+### Experiencia durante la importación
+* **Barra flotante de progreso:** Mientras agregas archivos, aparece una cápsula flotante no bloqueante sobre la parte inferior (en Android sobre el menú inferior y en escritorio en el borde inferior del contenido) recordando no cerrar la app hasta que termine, sin impedirte seguir navegando.
+* **Confirmación al salir:** Si intentas cerrar o salir de Syfile mientras hay una importación en curso, la aplicación te pedirá confirmación para evitar cortes accidentales.
+* **Reanudación automática:** Se corrigió la reanudación de importaciones pendientes al volver a abrir o traer al frente la aplicación en Android.
+
+### Estabilidad en Android
+* **Lectura más tolerante en segundo plano:** Si el sistema pausa o ralentiza la app en segundo plano mientras lees archivos pesados, ya no se cancela erróneamente por tiempo de espera.
+* **Pantalla activa al importar:** Mientras estés importando en primer plano, la pantalla se mantiene encendida automáticamente para evitar suspensiones a mitad de un lote.
