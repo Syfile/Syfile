@@ -12,8 +12,8 @@
 | :--- | :--- | :--- |
 | **Windows** | `.exe` Installer | Available in [Releases](../../releases/latest) |
 | **Android** | `.apk` Package | Available in [Releases](../../releases/latest) |
+| **Linux** | `.deb` | Available in [Releases](../../releases/latest) |
 | **macOS** | `.dmg` Installer | Coming soon |
-| **Linux** | `.AppImage` | Coming soon |
 | **iOS** | App Store | Coming soon |
 
 ---
